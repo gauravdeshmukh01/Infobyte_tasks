@@ -1,0 +1,96 @@
+body {
+  font-family: 'Arial', sans-serif;
+  /*background: url("images/background-image.jpeg") no-repeat center center fixed; */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(138, 182, 227, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #007BFF; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+input, select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #007BFF;
+  color: rgb(241, 235, 235);
+  border: 1px solid #0e0e0e; 
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.unit-selector {
+  padding: 15px;
+  border: 1px dashed #ccc; 
+  margin: 15px 0;
+  border-radius: 5px;
+  background-color: rgba(212, 219, 215, 0.9); 
+}
+
+#result {
+  font-size: 1.5em;
+  color: #030303;
+  margin-top: 20px;
+}
+
+#formulaDisplay {
+  font-size: 1.5em;
+  color: #232222;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #fcee91;
+  font-size: 1em;
+}
+
+@media (max-width: 600px) {
+  .container {
+      width: 100%;
+  }
+
+  input, select, button {
+      width: 100%;
+  }
+}
